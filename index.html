@@ -4,56 +4,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wilfried Portet - Portfolio</title>
+    <title>My portfolio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav id="navigation-bar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Pages/aboutme.html">About Me</a></li>
-                <li><a href="Pages/project.html">Project</a></li>
-                <li><a href="Pages/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="first-section">
-            <div class="inner-section">
-                <img src="images/wilfried.jpg" alt="Wilfried Portet, Junior Full-Stack Developer">
-                <div class="vertical-line"></div>
-                <div class="texte">
-                    <h1>Wilfried Portet</h1>
-                    <p class="job-title">Junior Full-Stack Developer</p>
-                    <p class="school">School: ESTIAM</p>
-
-                    <div class="social-media">
-                        <a href="#"><img class="social-icon" src="images/linkedin.png" alt="LinkedIn Profile"></a>
-                        <a href="#"><img class="social-icon" src="images/github.png" alt="GitHub Profile"></a>
-                        <a href="#"><img class="social-icon" src="images/insta.png" alt="Instagram Profile"></a>
-                    </div>
+    <nav>
+        <div class="nav-container">
+            <div class="menu-container">
+                <button class="hamburger">☰</button>
+                <div class="nav-links">
+                    <!-- <a href="#work" class="nav-link">Work</a> -->
+                    <!-- <a href="pages/about-me.html" class="nav-link">About</a>
+                    <a href="pages/contact.html" class="nav-link">Contact</a> -->
                 </div>
             </div>
-        </section>
+            <div class="tech-container">
+                <img src="images/html.png" alt="html">
+                <img src="images/css.png" alt="css">
+                <img src="images/js.png" alt="js">
+            </div>
+        </div>
+        <div class="hamburger-list-container hidden">
+            <a href="#work" class="nav-link">Work</a>
+            <a href="pages/about-me.html" class="nav-link">About</a>
+            <a href="pages/contact.html" class="nav-link">Contact</a>
+        </div>
+    </nav>
 
-    </main>
-        <!-- <section id="second-section"> -->
-            <!-- Content coming soon -->
-        <!-- </section> -->
+    <div class="socials">
+        <a href="https://www.linkedin.com/in/wilfried-portet-a882b9293/">
+            <img src="images/linkedin.png" alt="Linkedin image">
+        </a>
+        <a href="https://github.com/PortetWilfried">
+            <img src="images/icons8-github-50.png" alt="Github">
+        </a>
+        <a href="https://www.instagram.com/wilfried_portet/">
+            <img src="images/insta.png" alt="instagram image">
+        </a>
+    </div>
 
-
+    <section class="main-section">
+        <img
+        class="headshot"
+        src="images/wilfried.jpg"
+        alt="portrait"
+        />
+        <div class="introduction">
+            <h1>Hi, I'm Wilfried</h1>
+            <p>I am a Software Developer Student</p>
+            <p>
+                I am currently Studying Software Engineering
+                At ESTIAM.
+            </p>
+            <p>Checkout my work and Project below! </p>
+            <div class="bounce"><i class="arrow"></i></div>
+        </div>
+    </section>
     
+    <section class="work-station" id="work">
+        <div class="work-card-container">
+            <div class="work-card html">
+                <h6>C++</h6>
+                <a href=""><h3>Tic Tac Toe</h3></a>
+                <p>Class Project</p>
+            </div>
 
+            <div class="work-card css">
+                <h6>C++</h6>
+                <a href=""><h3>Securing a database with a QR code</h3></a>
+                <p>Class Project</p>
+            </div>
 
+            <!-- <div class="work-card js">
+                <h6>C++</h6>
+                <a href=""><h3>Tic Tac Toe</h3></a>
+                <p>Class Project</p>
+            </div>
 
+            <div class="work-card react">
+                <h6>C++</h6>
+                <a href=""><h3>Tic Tac Toe</h3></a>
+                <p>Class Project</p>
+            </div>
+            <div class="work-card react">
+                <h6>C++</h6>
+                <a href=""><h3>Tic Tac Toe</h3></a>
+                <p>Class Project</p>
+            </div>
+            <div class="work-card react">
+                <h6>C++</h6>
+                <a href=""><h3>Tic Tac Toe</h3></a>
+                <p>Class Project</p>
+            </div> -->
 
-
+        </div>
+    </section>
+    
+    <section class="about-section">
+        <div class="quote-container">
+            <h3 class="quote">Coming Soon</h3>
+            <!-- <p>Coming Soon</p> -->
+        </div>
+        <!-- <div class="about-container">
+            <h2>Why I do what I do</h2>
+            <br/>
+            <p>Coming soon</p>
+            <br/>
+            <p>Coming soon</p>
+            <br/>
+            <p>Contact me for more info.</p>
+            <div class="bounce"><i class="arrow"></i></div>
+        </div> -->
+    </section>
+    
     <footer>
-        <p>&copy; 2023 Wilfried Portet. All rights reserved.</p>
+        <a href="mailto:wilfried.portet@gmail.com">Contact me on wilfried.portet@gmail.com</a>
     </footer>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
