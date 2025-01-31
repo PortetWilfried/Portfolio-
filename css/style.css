@@ -237,6 +237,13 @@ p{
 
 }
 
+hr {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    color: rgb(41, 224, 169);
+}
+
 .about-section{
     display: flex;
     justify-content: center;
